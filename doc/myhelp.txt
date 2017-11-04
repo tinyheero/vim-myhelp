@@ -1,12 +1,13 @@
-*myhelp.txt*	For Vim version 7.4	Last change: 2014 October 8
+*myhelp.txt*	For NVIM version 0.2.0	Last change: 2017 November 4
 *myhelp*
 
-Fong's cheat sheet of Vim.
+Fong's personal cheat sheet for Vim. 
 
 ===============================================================================
 CONTENTS
 
 	1. Reloading your vim configuration.....................|myhelp-config-reload|
+	2. This cheatsheet
 
 ===============================================================================
 1. Reloading your vim configuration                       *myhelp-config-reload*
@@ -14,19 +15,16 @@ CONTENTS
    - :so % : Reloads your vim configuration while editing.
 
 ===============================================================================
-4. NOTES                                               *myhelp-notes*
+2. This cheatsheet                                           *myhelp-cheatsheet*
 
-Janus: https://github.com/carlhuda/janus
+The contents of this cheatsheet should be stored at 
+`~/.config/nvim/plugged/vim-myhelp/doc/myhelp.txt`
 
-Why disable supertab? Because it's really annoying when you're writing in a
-language that uses tabs instead of spaces.
+You can create a `tags` file that allows you to then type 
+`:h myhelp-cheatsheet` to quickly jump here. The command to do that is
 
-===============================================================================
-5. Rebuilding this file.
+```
+helpt ~/.config/nvim/plugged/vim-myhelp
+```
 
-This file is loaded as a plugin. If you ever need to rebuild the tags file, run
-this command: >
-   :helpt /path/to/this/directory
-<
-
-You may need to restart VIM to see the updated version.
+# vim: filetype=help:ts=2
