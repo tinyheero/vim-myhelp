@@ -7,7 +7,7 @@ Fong's personal cheat sheet for Vim.
 CONTENTS
 
 	1. Reloading your vim configuration.....................|myhelp-config-reload|
-	2. This cheatsheet
+	2. This cheatsheet.........................................|myhelp-cheatsheet|
 
 ===============================================================================
 1. Reloading your vim configuration                       *myhelp-config-reload*
