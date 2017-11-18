@@ -1,4 +1,4 @@
-*myhelp.txt*	For NVIM version 0.2.0	Last change: 2017 November 4
+*myhelp.txt*	For NVIM version 0.2.0	Last change: 2017-11-18 
 *myhelp*
 
 Fong's personal cheat sheet for Vim. 
@@ -7,7 +7,7 @@ Fong's personal cheat sheet for Vim.
 CONTENTS
 
 	1. Reloading your vim configuration.....................|myhelp-config-reload|
-	2. This cheatsheet.........................................|myhelp-cheatsheet|
+	3. This cheatsheet.........................................|myhelp-cheatsheet|
 
 ===============================================================================
 1. Reloading your vim configuration                       *myhelp-config-reload*
@@ -15,7 +15,28 @@ CONTENTS
    - :so % : Reloads your vim configuration while editing.
 
 ===============================================================================
-2. This cheatsheet                                           *myhelp-cheatsheet*
+2. Hotkeys                                                      *myhelp-hotkeys*
+
+To check what a what key is doing run the command:
+
+```
+:map hotkey
+```
+
+For example:
+
+```
+:map <C-p>
+```
+
+Shows:
+
+```
+<C-P>         <Plug>(ctrlp)
+````
+
+===============================================================================
+3. This cheatsheet                                           *myhelp-cheatsheet*
 
 The contents of this cheatsheet should be stored at 
 `~/.config/nvim/plugged/vim-myhelp/doc/myhelp.txt`
