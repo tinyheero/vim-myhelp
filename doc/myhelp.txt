@@ -7,8 +7,9 @@ Fong's personal cheat sheet for Vim.
 CONTENTS
 
 	1. Reloading your vim configuration.....................|myhelp-config-reload|
-	2. Hotkeys..............................................|myhelp-config-reload|
-	3. This cheatsheet.........................................|myhelp-cheatsheet|
+	2. Hotkeys....................................................|myhelp-hotkeys|
+	3. Searching................................................|myhelp-searching|
+	4. This cheatsheet.........................................|myhelp-cheatsheet|
 
 ===============================================================================
 1. Reloading your vim configuration                       *myhelp-config-reload*
@@ -37,7 +38,20 @@ Shows:
 ````
 
 ===============================================================================
-3. This cheatsheet                                           *myhelp-cheatsheet*
+3. Searching                                                  *myhelp-searching*
+
+The ag.vim plugin serves as a front for the the_silver_searcher. This is 
+essentially grep for programmers allowing for quick searching across your files. 
+The power of :Ag is using Ag to search and replace for a given string across all 
+the files in your project. 
+
+```
+:args `ag -l string_to_replace .`
+:argdo %s/string_to_search/replacement_string/g | w
+```
+
+===============================================================================
+4. This cheatsheet                                           *myhelp-cheatsheet*
 
 The contents of this cheatsheet should be stored at 
 `~/.config/nvim/plugged/vim-myhelp/doc/myhelp.txt`
