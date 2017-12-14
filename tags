@@ -1,4 +1,6 @@
 myhelp	doc/myhelp.txt	/*myhelp*
 myhelp-cheatsheet	doc/myhelp.txt	/*myhelp-cheatsheet*
 myhelp-config-reload	doc/myhelp.txt	/*myhelp-config-reload*
+myhelp-hotkeys	doc/myhelp.txt	/*myhelp-hotkeys*
+myhelp-searching	doc/myhelp.txt	/*myhelp-searching*
 myhelp.txt	doc/myhelp.txt	/*myhelp.txt*
